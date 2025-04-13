@@ -4,12 +4,79 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Focus Mediazone</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background: linear-gradient(to right, #4285F4, #34A853, #FBBC05, #EA4335);
+      padding: 1.5rem;
+      color: white;
+      text-align: center;
+    }
+    header img {
+      height: 80px;
+      border-radius: 12px;
+    }
+    nav {
+      background-color: #f1f1f1;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .services, .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      padding: 1rem;
+    }
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .contact-btns a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #34A853;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
+  <header>
+    <img src="logo.png" alt="Focus Mediazone Logo" />
     <h1>Welcome to Focus Mediazone</h1>
-    <p>Your one-stop solution for printing and design services!</p>
-  </div>
-</body>
-</html>
+    <p>Expertise in Advertising, Designing, Printing & Branding</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="section" id="services">
