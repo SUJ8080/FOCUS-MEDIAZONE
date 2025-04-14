@@ -29,7 +29,7 @@ header {
 }
 
 .logo {
-  max-height: 120px; /* Increased size for better visibility */
+  max-height: 200px; /* Increased size for better visibility */
   width: auto;
   margin: 10px 20px;
 }
