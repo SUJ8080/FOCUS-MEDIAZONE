@@ -20,7 +20,7 @@ header {
 
 /* Header Logo */
 .logo {
-    max-height: 40px;     /* Adjust this to control logo size */
+    max-height: 80px;     /* Adjust this to control logo size */
     width: auto;
     margin: 10px 20px;
 }
